@@ -1,4 +1,4 @@
-# AN EXPLORATORY DATA ANALYSIS IN MOVIES
+# An Exploratory Data Analysis in Movies
 
 In this project, [three datasets](https://github.com/dodopianist/Data_Analysis/tree/main/Exploring%20movies/movie_data) are analysed.
 
