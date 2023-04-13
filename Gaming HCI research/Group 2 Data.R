@@ -1,4 +1,4 @@
-setwd("P:/School/British live/Term 2/DARP/Data")
+setwd("C:/Users/User/OneDrive - KU Leuven/Jobs/Data_Analysis/Gaming HCI research")
 Group2Data <- read.table("Group 2 Data.csv", header=TRUE, sep="," )
 
 Group2Data$Condition <- gsub("1", "Autonomy Support", Group2Data$Condition)
