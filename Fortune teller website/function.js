@@ -4,7 +4,7 @@ let timezone = Math.abs(d.getTimezoneOffset());
 let date = document.getElementById("date");
 let month = document.getElementById("month");
 let year = document.getElementById("year");
-let earthlyBranch = document.getElementById("earthlyBranch")
+let earthlyBranch = null;
 let dateDict;
 
 // assign the lists and dictionary for life weight calculation
@@ -28,16 +28,52 @@ const day_reg = /"lunarDay":\s([0-9]{1,2})/
 const month_reg = /"lunarMonth":\s([0-9]{1,2})/
 const year_reg = /"lunarYear":\s([0-9]{4})/
 const chiZodiac_reg = /"chineseZodiacSigninEnglish":\s"(.*?)"/
-const solar_reg = /"solarTerminEnglish":\s"(.*?)"/
+// const solar_reg = /"solarTerminEnglish":\s"(.*?)"/
 
-// call the api when press the button
+// function for extracting value of time buttons
+function timeActive(btn) {
+    if (btn.classList.contains('active')) {
+        btn.classList.remove('active');
+        earthlyBranch = null;
+    } else {
+        const buttons = document.querySelectorAll('.time');
+        buttons.forEach((button) => {
+            button.classList.remove('active');
+            earthlyBranch = null;
+        });
+
+        btn.classList.add('active');
+        earthlyBranch = btn;
+    }
+}
+
+// create functions that show and hide the telling part
+function showTelling() {
+    const telling = document.getElementById("telling");
+    telling.classList.remove("hide");
+    telling.classList.add("show");}
+function hideTelling() {
+    const telling = document.getElementById("telling");
+    telling.classList.add("hide");
+    telling.classList.remove("show");
+}
+
+// create a function to empty previous elements
+function empty(element) {
+    element.innerHTML = "";
+}
+
+// call the api when clicking the button
 document.getElementById("calculateBtn").addEventListener("click", callApi)
 function callApi() {
+    hideTelling();
+
     fetch(`https://chinese-lunar-calendar.p.rapidapi.com/?date=${year.value}${month.value}${date.value}&timezone=${timezone}&simplified=0`, options)
         .then(response => response.json())
         .then(data => {
             // empty the previous printout
-            empty(document.getElementById("result"));
+            empty(document.getElementById("telling"));
+            showTelling();
 
             // extract information from the result of api
             dateDict = data.result;
@@ -45,10 +81,13 @@ function callApi() {
             let lunarMonth = dateDict.match(month_reg)[1];
             let lunarYear = dateDict.match(year_reg)[1];
             let chiZodiac = dateDict.match(chiZodiac_reg)[1];
-            let solarTerm = dateDict.match(solar_reg)[1];
+            let life_weight;
+            // let solarTerm = dateDict.match(solar_reg)[1];
 
             // calculate the life weight based on the lunar date
-            let life_weight = (date_weight[lunarDay-1] + month_weight[lunarMonth-1] + year_weight[(lunarYear-4)%60] + earthlyBranch_weight[earthlyBranch.value]).toFixed(1);
+            if (earthlyBranch !== null) {
+                life_weight = (date_weight[lunarDay-1] + month_weight[lunarMonth-1] + year_weight[(lunarYear-4)%60] + earthlyBranch_weight[earthlyBranch.value]).toFixed(1);
+            }
             // when the life_weight is an int, if can't fetch the information from the dictionary
             // so I transform it in to a string here
             if (life_weight in [3.0, 4.0, 5.0, 6.0, 7.0]) {
@@ -56,49 +95,44 @@ function callApi() {
             }
 
             // print out the lunar birthdate
-            document.getElementById("result")
+            document.getElementById("telling")
                 .appendChild(document.createElement("p"))
                 .appendChild(document.createTextNode(`Your lunar birth date is on ${lunarDay}/${lunarMonth}/${lunarYear}`))
 
-            // if the date was on a specific solar term, print it out
-            if (solarTerm !== "") {
-                document.getElementById("result")
-                    .appendChild(document.createElement("p"))
-                    .appendChild(document.createTextNode(`You were born on the solar term of ${solarTerm}`))
-            }
-
             // print out the Chinese zodiac sign of the lunar date
-            document.getElementById("result")
+            document.getElementById("telling")
                 .appendChild(document.createElement("p"))
                 .appendChild(document.createTextNode(`Your Chinese zodiac sign is ${chiZodiac}`))
 
+            document.getElementById("telling")
+                .appendChild(document.createElement("p"))
+                .appendChild(document.createTextNode(`And your life weights......`))
+
             // print out the life weight
             // if the birth time is not given, print out indication
-            if (earthlyBranch.value !== "") {
-                document.getElementById("result")
-                    .appendChild(document.createElement("p"))
-                    .appendChild(document.createTextNode(`Your life weights ${life_weight} liang`))
-                document.getElementById("result")
+            if (earthlyBranch !== null) {
+                let theWeight = document.createElement("p");
+                theWeight.id = "weight"
+
+                document.getElementById("telling")
+                    .appendChild(theWeight)
+                    .appendChild(document.createTextNode(`~ ${life_weight} liang (兩) ~`))
+                document.getElementById("telling")
                     .appendChild(document.createElement("p"))
                     .appendChild(document.createTextNode(`${teller[life_weight]}`))
             } else {
-                document.getElementById("result")
+                document.getElementById("telling")
                     .appendChild(document.createElement("p"))
-                    .appendChild(document.createTextNode(`Birth time is needed to calculate your life weight`))
+                    .appendChild(document.createTextNode(`Birth time is needed for calculation`))
             }
         })
         .catch(error => {
             // print out warning if the api returns error
-            document.getElementById("result")
+            document.getElementById("telling")
                 .appendChild(document.createElement("p"))
                 .appendChild(document.createTextNode(`Invalid, the date should be in style: DD/MM/YYYY`))
-            document.getElementById("result")
+            document.getElementById("telling")
                 .appendChild(document.createElement("p"))
-                .appendChild(document.createTextNode(`(P.S. Only accepts years between 1900 and 2100)`))
+                .appendChild(document.createTextNode(`(P.S. Only accepts years 1900 ~ 2100)`))
         });
-}
-
-// create a function to empty previous elements
-function empty(element) {
-    element.innerHTML = "";
 }

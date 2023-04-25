@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
     <title>Calculate Testing</title>
 </head>
+
 <body>
-<div id="calculation">
-    <h2>Life Weight Calculator</h2>
-    <p>When is your birthday? (in solar calendar)</p>
-    <input type="text" id="date" placeholder="DD">
-    <input type="text" id="month" placeholder="MM">
-    <input type="text" id="year" placeholder="YYYY">
-    <select id="earthlyBranch">
-        <option value="">Select your birth time</option>
-        <option value="ZI">00:00-00:59 (ZI)</option>
-        <option value="CHOU">01:00-02:59 (CHOU)</option>
-        <option value="YIN">03:00-04:59 (YIN)</option>
-        <option value="MAO">05:00-06:59 (MAO)</option>
-        <option value="CHEN">07:00-08:59 (CHEN)</option>
-        <option value="SI">09:00-10:59 (SI)</option>
-        <option value="WU">11:00-12:59 (WU)</option>
-        <option value="WEI">13:00-14:59 (WEI)</option>
-        <option value="SHEN">15:00-16:59 (SHEN)</option>
-        <option value="YOU">17:00-18:59 (YOU)</option>
-        <option value="XU">19:00-20:59 (XU)</option>
-        <option value="HAI">21:00-22:59 (HAI)</option>
-        <option value="ZI">23:00-23:59 (ZI)</option>
-    </select>
-    <button id="calculateBtn">Calculate</button>
-    <div id="result"></div>
+<div id="wholePage">
+    <div id="header">
+        <div id="link">
+            <a href="google.com" id="homePage">Home</a>
+            <a href="google.com" id="drawLots">Draw Lots</a>
+            <a href="google.com" id="info">Info</a>
+        </div>
+    </div>
+
+    <h2 id="title">LIFE WEIGHT CALCULATOR</h2>
+
+    <div id="mainPart">
+
+        <div id="calculation">
+            <p id="birthday">When is your birthday?<br>(in solar calendar)</p>
+            <div id="insertBox">
+                <input class="birth" type="text" id="date" placeholder="DD">
+                <input class="birth" type="text" id="month" placeholder="MM">
+                <input class="birth" type="text" id="year" placeholder="YYYY">
+            </div>
+
+            <p id="birthtime">And your birth time?</p>
+            <div id="timeChoose">
+                <button class="time" id="ZI" value="ZI" onclick="timeActive(this)">23:00 - 00:59<br>ZI (子)</button>
+                <button class="time" id="CHOU" value="CHOU" onclick="timeActive(this)">01:00 - 02:59<br>CHOU (丑)</button>
+                <button class="time" id="YIN" value="YIN" onclick="timeActive(this)">03:00 - 04:59<br>YIN (寅)</button>
+                <button class="time" id="MAO" value="MAO" onclick="timeActive(this)">05:00 - 06:59<br>MAO (卯)</button>
+                <button class="time" id="CHEN" value="CHEN" onclick="timeActive(this)">07:00 - 08:59<br>CHEN (辰)</button>
+                <button class="time" id="SI" value="SI" onclick="timeActive(this)">09:00 - 10:59<br>SI (巳)</button>
+                <button class="time" id="WU" value="WU" onclick="timeActive(this)">11:00 - 12:59<br>WU (午)</button>
+                <button class="time" id="WEI" value="WEI" onclick="timeActive(this)">13:00 - 14:59<br>WEI (未)</button>
+                <button class="time" id="SHEN" value="SHEN" onclick="timeActive(this)">15:00 - 16:59<br>SHEN (申)</button>
+                <button class="time" id="YOU" value="YOU" onclick="timeActive(this)">17:00 - 18:59<br>YOU (酉)</button>
+                <button class="time" id="XU" value="XU" onclick="timeActive(this)">19:00 - 20:59<br>XU (戌)</button>
+                <button class="time" id="HAI" value="HAI" onclick="timeActive(this)">21:00 - 22:59<br>HAI (亥)</button>
+            </div>
+
+            <button id="calculateBtn">Calculate</button>
+        </div>
+
+        <div id="result">
+            <img src="矢量%201.svg" id="scroll" alt="error">
+            <div id="telling">
+<!--                <p>In lunar calendar,</p>-->
+<!--                <p>You were born on 1/1/1993.</p>-->
+<!--                <p>Your Chinese zodiac sign is Rooster,</p>-->
+<!--                <p>And you life weights......</p>-->
+<!--                <p id="weight">~ 3.5 Liang (兩) ~</p>-->
+<!--                <p>You have a life of blablabla.</p>-->
+            </div>
+        </div>
+
+    </div>
 </div>
 
-<!--<div id="usedWebsite">-->
-<!--    <h2>Websites</h2>-->
-<!--    <ul>-->
-<!--        <li><a href="https://rapidapi.com/copy2sim/api/chinese-lunar-calendar">Lunar API</a></li>-->
-<!--        <li><a href="https://astrologyapi.com/docs/api-ref/187/chinese_zodiac">Zodiac API</a></li>-->
-<!--        <li><a href="https://www.luerhmen.org.tw/about_us.php?kind=7&class_id=42&item_id=119">Calculation</a></li>-->
-<!--        <li><a href="https://ruby52007.pixnet.net/blog/post/32951007">Weight Explanation</a></li>-->
-<!--        <li><a href="https://www.toolskk.com/bazi">Sample</a></li>-->
-<!--    </ul>-->
-<!--</div>-->
 <script type="text/javascript" src="function.js"></script>
 </body>
+
 </html>
