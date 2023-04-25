@@ -89,7 +89,7 @@ function callApi() {
                 life_weight = (date_weight[lunarDay-1] + month_weight[lunarMonth-1] + year_weight[(lunarYear-4)%60] + earthlyBranch_weight[earthlyBranch.value]).toFixed(1);
             }
             // when the life_weight is an int, if can't fetch the information from the dictionary
-            // so I transform it in to a string here
+            // , so I transform it in to a string here
             if (life_weight in [3.0, 4.0, 5.0, 6.0, 7.0]) {
                 life_weight = toString(life_weight)
             }
