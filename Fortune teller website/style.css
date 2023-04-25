@@ -185,7 +185,6 @@
     flex-direction: column;
 
     overflow: hidden;
-    transition: 0.5s;
 }
 
 #telling.show {
