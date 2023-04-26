@@ -130,7 +130,7 @@ function callApi() {
             // print out warning if the api returns error
             document.getElementById("telling")
                 .appendChild(document.createElement("p"))
-                .appendChild(document.createTextNode(`Invalid, the date should be in style: DD/MM/YYYY`))
+                .appendChild(document.createTextNode(`Invalid, the date should be: DD/MM/YYYY`))
             document.getElementById("telling")
                 .appendChild(document.createElement("p"))
                 .appendChild(document.createTextNode(`(P.S. Only accepts years 1900 ~ 2100)`))
