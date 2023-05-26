@@ -2,4 +2,4 @@
 
 An individual project at KU Leuven. to analysis a dataset of data of [hotel bookings](https://github.com/dodopianist/Projects/blob/main/Hotel%20bookings%20analysis/data/part1-data/bookings.csv), fix the errors and extract interesting findings.
 
-Check [here]([https://github.com/dodopianist/Projects/blob/main/Hotel%20bookings%20analysis/Data_mining_part1_Ching_Han.pdf](https://github.com/dodopianist/Projects/blob/main/Hotel%20bookings%20analysis/Hotel%20bookings%20analysis.pdf)) for the report.
+Check [here](https://github.com/dodopianist/Projects/blob/main/Hotel%20bookings%20analysis/Data_mining_part1_Ching_Han.pdf) for the report.
