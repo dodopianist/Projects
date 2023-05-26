@@ -1,3 +1,5 @@
 # Spam email classifier
 
-An individual project at KU Leuven. to analysis a dataset of data of [hotel bookings](https://github.com/dodopianist/Projects/blob/main/Hotel%20bookings%20analysis/data/part1-data/bookings.csv), fix the errors and extract interesting findings.
+An individual project at KU Leuven, useing four kinds of machine learning models (logistic regression, naive bayes, decision tree and neural network) to build spam email classifiers.
+
+Read the full report [here](https://github.com/dodopianist/Projects/blob/main/Spam%20email%20classifier/Data_mining_part2_Ching_Han.pdf).
