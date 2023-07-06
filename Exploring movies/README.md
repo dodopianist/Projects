@@ -6,4 +6,4 @@ First, it applys descriptive statistics to look at the scope of a dataset contai
 
 Check [here](https://github.com/dodopianist/Projects/blob/main/Exploring%20movies/Exploring%20movies.ipynb) for the report.
 
-Final Grade: 16/20.
+Final Grade: 16/20
