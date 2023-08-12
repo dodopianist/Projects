@@ -6,4 +6,4 @@ A lot of components of player experience in digital games were measured. However
 
 The data can be found [here](https://github.com/dodopianist/Data_Analysis/blob/main/Gaming%20HCI%20research/Group%202%20Data.csv), and there is also an [easy-reading version](https://dodopianist.wixsite.com/chinghankuo/ux-research-project-digital-games) of our result.
 
-Final Grade: 72/100.
+Final Grade: 72/100 (Distinction).
