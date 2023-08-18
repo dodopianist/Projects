@@ -4,6 +4,6 @@ An individual project at KU Leuven. By using metadata from Italy archives (1500-
 
 Check [here](https://github.com/dodopianist/Projects/blob/main/Showcasting%20history/Showcasing%20history.pdf) for the report, and the visulisation of the analysis can be found here: [Dashboard](https://public.tableau.com/app/profile/dhching/viz/DH_Assignment2/ArchivesatKULeuvenItaly1501-1600), [Linear Regression](https://public.tableau.com/app/profile/dhching/viz/YearXLocationofPublication/YearXLocationofPublication) and [Chi-Squared Test](https://public.tableau.com/app/profile/dhching/viz/TitleXLanguage/NotablesXLanguage)
 
-\* The copyright of the dataset belongs to KU Leuven so it's not put here.
+The copyright of the dataset belongs to KU Leuven so it's not put here.
 
 Final Grade: 10/10.
