@@ -1,4 +1,4 @@
-# Spam email classifier
+# Spam Email Classifier
 
 An individual project at KU Leuven, useing four kinds of machine learning models (logistic regression, naive bayes, decision tree and neural network) to build spam email classifiers.
 
