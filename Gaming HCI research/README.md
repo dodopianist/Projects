@@ -1,4 +1,4 @@
-# The Relationship between Autonomy and Immersion Digital Games
+# The Relationship between Autonomy and Immersion in Digital Games
 
 A group project when I was studying at University of York, not at KU Leuven. I am in charge of designing and structuring our questionnaire via "Qualtrics", and conducting data analysis via R.
 
