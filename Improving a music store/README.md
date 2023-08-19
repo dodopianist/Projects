@@ -1,9 +1,7 @@
-# An Exploratory Data Analysis in Movies
+# Improving a Music Store
 
-An individual project at KU Leuven. In this project, [three datasets](https://github.com/dodopianist/Data_Analysis/tree/main/Exploring%20movies/movie_data) are analysed.
+An group project at KU Leuven. With the technique of SQL (MySQL), we conducted business analysis on a database of a [music store](https://github.com/dodopianist/Projects/blob/main/Improving%20a%20music%20store/Chinook.sql), analysed and visualised its performance and identified its weak points be improved.
 
-First, it applys descriptive statistics to look at the scope of a dataset containing the top 1000 ranking movies on IMDB. Second, it compares the top 1000 movies with Christmas movies using the techniques of Linear Regression and Chi-Squared Test. Finally, it investigates the scripts of the Star Wars trilogy with text analysis and social network analysis.
+Check [here](https://github.com/dodopianist/Projects/blob/main/Improving%20a%20music%20store/Improving%20a%20music%20store.ipynb) for the report.
 
-Check [here](https://github.com/dodopianist/Projects/blob/main/Exploring%20movies/Exploring%20movies.ipynb) for the report.
-
-Final Grade: 16/20.
+Final Grade: 29/30.
