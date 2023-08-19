@@ -6,4 +6,4 @@ The [first part](https://github.com/dodopianist/Projects/blob/main/Text%20analys
 
 The copyright of the dataset belongs to the school I applied to, so they are not shown here.
 
-Read the presentation [here](https://github.com/dodopianist/Projects/blob/main/Text%20analysis%20and%20classification/Phd%20Interview%20Task%202.pdf).
+Read the presentation [here](https://github.com/dodopianist/Projects/blob/main/Environmental%20impacts/Environmental%20impacts.pdf).
