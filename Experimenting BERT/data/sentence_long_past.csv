@@ -1,0 +1,11 @@
+sentence,correct,wrong,sin s,plu s
+"The teacher who was preparing the cookies for the children, who were orphans, [MASK] annoyed by the children.",was,were,1,0
+"The cats which were locked in a cage, which was occupying a room, [MASK] from Egypt.",were,was,0,1
+"The father who was next to the chairs, which were broken by his dogs, [MASK] tired.",was,were,1,0
+"The building which was under bridges, which were blocking rains, [MASK] the future presidential office.",was,were,1,0
+"The men who ran straight forward to a gym, which was owned by one of them, [MASK] athlethes.",were,was,0,1
+"The animals which were sleeping in the park, which was marked as a wild terrotory, [MASK] ferious.",were,was,0,1
+"The hunter who shot the lions, which were accentally released by the zookeepers, [MASK] tall.",was,were,1,0
+"The vases which were made by the company, that was in a forest, [MASK] making waves in the market.",were,was,0,1
+"The sheep which migrated to another prairie, which was close to a lake, [MASK] enjoying the grass.",were,was,0,1
+"The doctor who treated these patients, who were in serious injuries, [MASK] awareded a prize.",was,were,1,0

@@ -1,0 +1,41 @@
+sentence,correct,wrong,sin s,plu s,structure
+The scientist who is conducting experiments in several institutions [MASK] awarded a prestigious prize.,is,are,1,0,ving/p.p.
+The scientists who are conducting experiments in a institution [MASK] awarded a prestigious prize.,are,is,0,1,ving/p.p.
+The bartender who is mixing cocktails for the patrons [MASK] near the bar counter.,is,are,1,0,ving/prep.
+The bartenders who are mixing cocktails for a patron [MASK] near the bar counter.,are,is,0,1,ving/prep.
+The man who is brewing coffee for his colleagues [MASK] about the stock market.,talks,talk,1,0,ving/v
+The men who are brewing coffee for a colleague [MASK] about the stock market.,talk,talks,0,1,ving/v
+The politician who is accused of several crimes [MASK] on the news.,is,are,1,0,p.p./prep.
+The politicians who are accused of a crime [MASK] on the news.,are,is,0,1,p.p./prep.
+The shoplifter who is caught by police officers [MASK] at the crowd.,yells,yell,1,0,p.p./v
+The shoplifters who are caught by the police [MASK] at the crowd.,yell,yells,0,1,p.p./v
+The chef who is near the journalists [MASK] deliciously.,cooks,cook,1,0,prep./v
+The chefs who are near the journalist [MASK] deliciously.,cook,cooks,0,1,prep./v
+The man who is fixing the car for neighbors [MASK] an engineer.,is,are,1,0,ving/N
+The men who are fixing the car for their neighbor [MASK] an engineers.,are,is,0,1,ving/N
+The musician who is celebrated by audiences [MASK] a virtuoso.,is,are,1,0,p.p./N
+The musicians who are celebrated by the audience [MASK] virtuosos.,are,is,0,1,p.p./N
+The researcher who is making headlines [MASK] a Nobel laureate.,is,are,1,0,prep./N
+The researchers who are making the headline [MASK] Nobel laureates.,are,is,0,1,prep./N
+The student who forgets the assignments [MASK] a procrastinator.,is,are,1,0,v/N
+The students who forget the assignment [MASK] procrastinators.,are,is,0,1,v/N
+The artist who is painting portraits for people [MASK] talented.,is,are,1,0,ving/adj
+The artists who are painting a portrait for the person [MASK] talented.,are,is,0,1,ving/adj
+The director who is reviewed by critics [MASK] mediocre.,is,are,1,0,p.p./adj
+The directors who are reviewed by the critic [MASK] mediocre.,are,is,0,1,p.p./adj
+The dancer who is on stages [MASK] charismatic.,is,are,1,0,prep./adj
+The dancers who are on the stage [MASK] charismatic.,are,is,0,1,prep./adj
+The fish which swims throught the gates [MASK] beautiful.,is,are,1,0,v/adj
+The fish which swim throught the gate [MASK] beautiful.,are,is,0,1,v/adj
+The actress who is interviewed by reporters [MASK] confident.,is,are,1,0,p.p./ving
+The actresses who are interviewed by the reporter [MASK] confident.,are,is,0,1,p.p./ving
+The child who is in laboratories [MASK] enthusiastic.,is,are,1,0,prep./ving
+The children who are in laboratory [MASK] enthusiastic.,are,is,0,1,prep./ving
+The nurse who helps with newborns [MASK] joyful.,is,are,1,0,v/ving
+The nurses who help with the newborn [MASK] joyful.,are,is,0,1,v/ving
+The woman who is at parks [MASK] surrounded by birds.,is,are,1,0,prep./p.p.
+The women who are at the park [MASK] surrounded by birds.,are,is,0,1,prep./p.p.
+The Japanese who witnesses the crimes [MASK] taken two lawyers to provide statements.,is,are,1,0,v/p.p.
+The Japanese who witness a crime [MASK] taken by a lawyer to provide a statement.,are,is,0,1,v/p.p.
+The celebrity who adopts puppies [MASK] on the news.,is,are,1,0,v/prep.
+The celebrities who adopt a puppy [MASK] on the news.,are,is,0,1,v/prep.

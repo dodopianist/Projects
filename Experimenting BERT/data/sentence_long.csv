@@ -1,0 +1,11 @@
+sentence,correct,wrong,sin s,plu s
+"The teacher who is preparing the cookies for the children, who are orphans, [MASK] annoyed by the children.",is,are,1,0
+"The cats which are locked in a cage, which is occupying a room, [MASK] from Egypt.",are,is,0,1
+"The father who is next to the chairs, which are broken by his dogs, [MASK] tired.",is,are,1,0
+"The building which is under bridges, which are blocking rains, [MASK] the future presidential office.",is,are,1,0
+"The men who run straight forward to a gym, which is owned by one of them, [MASK] athlethes.",are,is,0,1
+"The animals which are sleeping in the park, which is marked as a wild terrotory, [MASK] ferious.",are,is,0,1
+"The hunter who shoots the lions, which are accentally released by the zookeepers, [MASK] tall.",is,are,1,0
+"The vases which are made by the company, that is in a forest, [MASK] making waves in the market.",are,is,0,1
+"The sheep which migrate to another prairie, which is close to a lake, [MASK] enjoying the grass.",are,is,0,1
+"The doctor who treats these patients, who are in serious injuries, [MASK] awareded a prize.",is,are,1,0

@@ -1,0 +1,35 @@
+sentence,correct,wrong,sin s,plu s,structure
+The scientist who was conducting experiments in several institutions [MASK] awarded a prestigious prize.,was,were,1,0,ving/p.p.
+The scientists who were conducting experiments in a institution [MASK] awarded a prestigious prize.,were,was,0,1,ving/p.p.
+The bartender who was mixing cocktails for the patrons [MASK] near the bar counter.,was,were,1,0,ving/prep.
+The bartenders who were mixing cocktails for a patron [MASK] near the bar counter.,were,was,0,1,ving/prep.
+The politician who was accused of several crimes [MASK] on the news.,was,were,1,0,p.p./prep.
+The politicians who were accused of a crime [MASK] on the news.,were,was,0,1,p.p./prep.
+The man who was fixing the car for neighbors [MASK] an engineer.,was,were,1,0,ving/N
+The men who were fixing the car for their neighbor [MASK] an engineers.,were,was,0,1,ving/N
+The musician who was celebrated by audiences [MASK] a virtuoso.,was,were,1,0,p.p./N
+The musicians who were celebrated by the audience [MASK] virtuosos.,were,was,0,1,p.p./N
+The researcher who was making headlines [MASK] a Nobel laureate.,was,were,1,0,prep./N
+The researchers who were making the headline [MASK] Nobel laureates.,were,was,0,1,prep./N
+The student who forgot the assignments [MASK] a procrastinator.,was,were,1,0,v/N
+The students who forgot the assignment [MASK] procrastinators.,were,was,0,1,v/N
+The artist who was painting portraits for people [MASK] talented.,was,were,1,0,ving/adj
+The artists who were painting a portrait for the person [MASK] talented.,were,was,0,1,ving/adj
+The director who was reviewed by critics [MASK] mediocre.,was,were,1,0,p.p./adj
+The directors who were reviewed by the critic [MASK] mediocre.,were,was,0,1,p.p./adj
+The dancer who was on stages [MASK] charismatic.,was,were,1,0,prep./adj
+The dancers who were on the stage [MASK] charismatic.,were,was,0,1,prep./adj
+The fish which swam throught the gates [MASK] beautiful.,was,were,1,0,v/adj
+The fish which swam throught the gate [MASK] beautiful.,were,was,0,1,v/adj
+The actress who was interviewed by reporters [MASK] confident.,was,were,1,0,p.p./ving
+The actresses who were interviewed by the reporter [MASK] confident.,were,was,0,1,p.p./ving
+The child who was in laboratories [MASK] enthusiastic.,was,were,1,0,prep./ving
+The children who were in laboratory [MASK] enthusiastic.,were,was,0,1,prep./ving
+The nurse who helped with newborns [MASK] joyful.,was,were,1,0,v/ving
+The nurses who helped with the newborn [MASK] joyful.,were,was,0,1,v/ving
+The woman who was at parks [MASK] surrounded by birds.,was,were,1,0,prep./p.p.
+The women who were at the park [MASK] surrounded by birds.,were,was,0,1,prep./p.p.
+The Japanese who witnessed the crimes [MASK] taken two lawyers to provide statements.,was,were,1,0,v/p.p.
+The Japanese who witnessed a crime [MASK] taken by a lawyer to provide a statement.,were,was,0,1,v/p.p.
+The celebrity who adopted puppies [MASK] on the news.,was,were,1,0,v/prep.
+The celebrities who adopted a puppy [MASK] on the news.,were,was,0,1,v/prep.

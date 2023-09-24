@@ -1,0 +1,41 @@
+sentence,correct,wrong,sin s,plu s,structure
+The scientist who has been conducting experiments in several institutions [MASK] been awarded a prestigious prize.,has,have,1,0,ving/p.p.
+The scientists who have been conducting experiments in a institution [MASK] been awarded a prestigious prize.,have,has,0,1,ving/p.p.
+The bartender who has been mixing cocktails for the patrons [MASK] been near the bar counter.,has,have,1,0,ving/prep.
+The bartenders who have been mixing cocktails for a patron [MASK] been near the bar counter.,have,has,0,1,ving/prep.
+The man who has been brewing coffee for his colleagues [MASK] talked about the stock market.,has,have,1,0,ving/v
+The men who have been brewing coffee for a colleague [MASK] talked about the stock market.,have,has,0,1,ving/v
+The politician who has been accused of several crimes [MASK] been on the news.,has,have,1,0,p.p./prep.
+The politicians who have been accused of a crime [MASK] been on the news.,have,has,0,1,p.p./prep.
+The shoplifter who has been caught by police officers [MASK] yelled at the crowd.,has,have,1,0,p.p./v
+The shoplifters who have been caught by the police [MASK] yelled at the crowd.,have,has,0,1,p.p./v
+The chef who has been near the journalists [MASK] cooked deliciously.,has,have,1,0,prep./v
+The chefs who have been near the journalist [MASK] cooked deliciously.,have,has,0,1,prep./v
+The man who has been fixing the car for neighbors [MASK] been an engineer.,has,have,1,0,ving/N
+The men who have been fixing the car for their neighbor [MASK] been an engineers.,have,has,0,1,ving/N
+The musician who has been celebrated by audiences [MASK] been a virtuoso.,has,have,1,0,p.p./N
+The musicians who have been celebrated by the audience [MASK] been virtuosos.,have,has,0,1,p.p./N
+The researcher who has been making headlines [MASK] been a Nobel laureate.,has,have,1,0,prep./N
+The researchers who have been making the headline [MASK] been Nobel laureates.,have,has,0,1,prep./N
+The student who has forgotten the assignments [MASK] been a procrastinator.,has,have,1,0,v/N
+The students who have forgotten the assignment [MASK] been procrastinators.,have,has,0,1,v/N
+The artist who has been painting portraits for people [MASK] been talented.,has,have,1,0,ving/adj
+The artists who have been painting a portrait for the person [MASK] been talented.,have,has,0,1,ving/adj
+The director who has been reviewed by critics [MASK] been mediocre.,has,have,1,0,p.p./adj
+The directors who have been reviewed by the critic [MASK] been mediocre.,have,has,0,1,p.p./adj
+The dancer who has been on stages [MASK] been charismatic.,has,have,1,0,prep./adj
+The dancers who have been on the stage [MASK] been charismatic.,have,has,0,1,prep./adj
+The fish which has swum throught the gates [MASK] been beautiful.,has,have,1,0,v/adj
+The fish which have swum throught the gate [MASK] been beautiful.,have,has,0,1,v/adj
+The actress who has been interviewed by reporters [MASK] been confident.,has,have,1,0,p.p./ving
+The actresses who have been interviewed by the reporter [MASK] been confident.,have,has,0,1,p.p./ving
+The child who has been in laboratories [MASK] been enthusiastic.,has,have,1,0,prep./ving
+The children who have been in laboratory [MASK] been enthusiastic.,have,has,0,1,prep./ving
+The nurse who has helped with newborns [MASK] been joyful.,has,have,1,0,v/ving
+The nurses who have helped with the newborn [MASK] been joyful.,have,has,0,1,v/ving
+The woman who has been at parks [MASK] been surrounded by birds.,has,have,1,0,prep./p.p.
+The women who have been at the park [MASK] been surrounded by birds.,have,has,0,1,prep./p.p.
+The Japanese who has witnessed the crimes [MASK] been taken two lawyers to provide statements.,has,have,1,0,v/p.p.
+The Japanese who have witnessed a crime [MASK] been taken by a lawyer to provide a statement.,have,has,0,1,v/p.p.
+The celebrity who has adopted puppies [MASK] been on the news.,has,have,1,0,v/prep.
+The celebrities who have adopted a puppy [MASK] been on the news.,have,has,0,1,v/prep.

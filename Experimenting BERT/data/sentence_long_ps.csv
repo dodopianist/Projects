@@ -1,0 +1,11 @@
+sentence,correct,wrong,sin s,plu s
+"The teacher who has been preparing the cookies for the children, who have been orphans, [MASK] been annoyed by the children.",has,have,1,0
+"The cats which have been locked in a cage, which has been occupying a room, [MASK] been from Egypt.",have,has,0,1
+"The father who has been next to the chairs, which have been broken by his dogs, [MASK] been tired.",has,have,1,0
+"The building which has been under bridges, which have been blocking rains, [MASK] been the future presidential office.",has,have,1,0
+"The men who have run straight forward to a gym, which has been owned by one of them, [MASK] been athlethes.",have,has,0,1
+"The animals which have been sleeping in the park, which has been marked as a wild terrotory, [MASK] been ferious.",have,has,0,1
+"The hunter who has shot the lions, which have been accentally released by the zookeepers, [MASK] been tall.",has,have,1,0
+"The vases which have been made by the company, that has been in a forest, [MASK] been making waves in the market.",have,has,0,1
+"The sheep which have migrated to another prairie, which has been close to a lake, [MASK] been enjoying the grass.",have,has,0,1
+"The doctor who has treated these patients, who have been in serious injuries, [MASK] been awareded a prize.",has,have,1,0
