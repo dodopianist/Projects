@@ -6,4 +6,4 @@ The [first part](https://github.com/dodopianist/Projects/blob/main/Environmental
 
 The copyright of the dataset belongs to the school I applied for, so they are not shown here.
 
-Read the presentation [here](https://github.com/dodopianist/Projects/blob/main/Environmental%20impacts/Environmental%20impacts.pdf).
+Read the presentation [here](https://raw.githack.com/dodopianist/Projects/main/Environmental%20impacts/Environmental%20impacts.pdf).
