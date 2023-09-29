@@ -6,6 +6,6 @@ A lot of components of player experience in digital games were measured. However
 
 In this project, I am in charge of designing and structuring our questionnaire via "Qualtrics", and conducting data analysis via R.
 
-The data can be found [here](https://github.com/dodopianist/Data_Analysis/blob/main/Gaming%20HCI%20research/Group%202%20Data.csv), and there is also an [easy-reading version](https://dodopianist.wixsite.com/chinghankuo/ux-research-project-digital-games) of our result.
+The data can be found [here](https://github.com/dodopianist/Data_Analysis/blob/main/Gaming%20HCI%20research/Group%202%20Data.csv), and there is also an [easy-reading version](https://dodopianist.wixsite.com/chinghankuo/ux-research-project-digital-games) of our [paper](https://raw.githack.com/dodopianist/Projects/main/Gaming%20HCI%20research/Group%202%20Study.pdf).
 
 Final Grade: 72/100 (Distinction).
